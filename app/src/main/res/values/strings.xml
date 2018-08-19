@@ -8,6 +8,7 @@
 
   <string name="dlg_title">Notification</string>
   <string name="dlg_ok">Ok</string>
+  <string name="dlg_cancel">Exit</string>
   <string name="dlg_permission">I need Accessibility to judge the foreground App</string>
 
   <string name="setting_exit">Exit</string>

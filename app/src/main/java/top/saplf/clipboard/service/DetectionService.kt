@@ -22,6 +22,6 @@ class DetectionService : AccessibilityService() {
   }
 
   companion object {
-    var currentApp: AppInfo? = null
+    @Volatile var currentApp: AppInfo? = null
   }
 }

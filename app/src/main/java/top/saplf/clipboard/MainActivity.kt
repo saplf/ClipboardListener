@@ -17,6 +17,9 @@ class MainActivity : AppCompatActivity() {
       .setPositiveButton(R.string.dlg_ok) { _, _ ->
         startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
       }
+      .setNegativeButton(R.string.dlg_cancel) { _, _ ->
+        finish()
+      }
       .setCancelable(false)
       .create()
   }
@@ -41,6 +44,13 @@ class MainActivity : AppCompatActivity() {
 
     if (!isAccessibilityOn) {
       permissionAlert.show()
+    }
+  }
+
+  override fun onDestroy() {
+    super.onDestroy()
+    if (!isAccessibilityOn) {
+      stopService(Intent(this, ListenClipboardService::class.java))
     }
   }
 }

@@ -9,6 +9,7 @@
 
   <string name="dlg_title">提示</string>
   <string name="dlg_ok">确定</string>
+  <string name="dlg_cancel">退出</string>
   <string name="dlg_permission">我需要辅助功能来检测前台程序</string>
 
   <string name="setting_exit">退出</string>
