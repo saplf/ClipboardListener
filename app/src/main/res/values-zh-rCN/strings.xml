@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">剪贴板监控</string>
+  <string name="permission_request">不会干坏事儿的，放心吧~</string>
+  <string name="notification_title">【%s】动了奶酪</string>
+  <string name="notification_content">内容：%s</string>
+  <string name="notification_title_none">前台服务占位</string>
+  <string name="notification_content_none">为了防止服务进程被系统杀死</string>
+
+  <string name="dlg_title">提示</string>
+  <string name="dlg_ok">确定</string>
+  <string name="dlg_permission">我需要辅助功能来检测前台程序</string>
+
+  <string name="setting_exit">退出</string>
+</resources>

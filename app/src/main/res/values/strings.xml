@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">Clipboard Listener</string>
+  <string name="permission_request">Who can help me to translate?</string>
+  <string name="notification_title">[%s] change the clipboard</string>
+  <string name="notification_content">content is [%s]</string>
+  <string name="notification_title_none">Foreground Holder</string>
+  <string name="notification_content_none">Just prevent to be killed by os</string>
+
+  <string name="dlg_title">Notification</string>
+  <string name="dlg_ok">Ok</string>
+  <string name="dlg_permission">I need Accessibility to judge the foreground App</string>
+
+  <string name="setting_exit">Exit</string>
+</resources>
